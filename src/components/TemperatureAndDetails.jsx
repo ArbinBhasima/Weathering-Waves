@@ -57,14 +57,14 @@ function TemperatureAndDetails() {
             </p>
             <UilArrowUp />
             <p className=" font-light ">
-                High: <span className=" font-medium ml-1">50° </span>
+                High: <span className=" font-medium ml-1">40° </span>
             </p>
             <p className=" font-light">
                | 
             </p>
             <UilArrowDown />
             <p className=" font-light ">
-                Low: <span className=" font-medium ml-1">-24°</span>
+                Low: <span className=" font-medium ml-1">24°</span>
             </p>
             
         </div>
