@@ -13,7 +13,7 @@ function Forcast({title}) {
         <p className=" font-light text-sm ">
           04:30 PM
         </p>
-        <img src=" ../public/clear.png" className=" w-12 my-1  " alt="" />
+        <img src=" /clear.png" className=" w-12 my-1  " alt="" />
         <p className=" font-medium">
           24°
         </p>
@@ -22,7 +22,7 @@ function Forcast({title}) {
         <p className=" font-light text-sm ">
           05:30 PM
         </p>
-        <img src=" ../public/clouds.png" className=" w-12 my-1  " alt="" />
+        <img src=" /clouds.png" className=" w-12 my-1  " alt="" />
         <p className=" font-medium">
           11°
         </p>
@@ -31,7 +31,7 @@ function Forcast({title}) {
         <p className=" font-light text-sm ">
           04:30 PM
         </p>
-        <img src=" ../public/clear.png" className=" w-12 my-1  " alt="" />
+        <img src=" /clear.png" className=" w-12 my-1  " alt="" />
         <p className=" font-medium">
           24°
         </p>
@@ -40,7 +40,7 @@ function Forcast({title}) {
         <p className=" font-light text-sm ">
           04:30 PM
         </p>
-        <img src=" ../public/clear.png" className=" w-12 my-1  " alt="" />
+        <img src=" /clear.png" className=" w-12 my-1  " alt="" />
         <p className=" font-medium">
           24°
         </p>
@@ -49,7 +49,7 @@ function Forcast({title}) {
         <p className=" font-light text-sm ">
           04:30 PM
         </p>
-        <img src=" ../public/clear.png" className=" w-12 my-1  " alt="" />
+        <img src=" /clear.png" className=" w-12 my-1  " alt="" />
         <p className=" font-medium">
           24°
         </p>
@@ -58,7 +58,7 @@ function Forcast({title}) {
         <p className=" font-light text-sm ">
           04:30 PM
         </p>
-        <img src=" ../public/clear.png" className=" w-12 my-1  " alt="" />
+        <img src=" /clear.png" className=" w-12 my-1  " alt="" />
         <p className=" font-medium">
           24°
         </p>

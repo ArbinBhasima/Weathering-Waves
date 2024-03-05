@@ -5,6 +5,11 @@ const API_KEY = 'daff1645154705f4c8621a6defd7849c';
 const API_URL = 'https://api.openweathermap.org/data/2.5';
 
 const getWeatherData = (infoType, searchParams) => {
+
+    
+
+
+
     const url = new URL(API_URL + "/" + infoType);
     url.search = new URLSearchParams({...searchParams, appid:API_KEY})
     
@@ -22,7 +27,7 @@ const formatForcastWeather = (data) => {
             icon: d.weather[0].icon
         }
     });
-    Hourly = Hourly.slice(1, 6).map(d => {
+    hourly = hourly.slice(1, 6).map(d => {
         return{
             title: forcastToLocalTime(d.dt, timezone, "hh:mm a"),
             temp: d.temp.day,
@@ -73,9 +78,9 @@ const getFormattedWeatherData = async (searchParams) => {
 }
 
 const forcastToLocalTime = (sec, zone, format = "'ccc, dd lll yyyy' | Local time: 'hh:mm a'") => DateTime
-.fromSeconds(secs).setZone(zone).toFormat(format);
+.fromSeconds(sec).setZone(zone).toFormat(format);
 
-const iconUrlFromCode = (code) => ``
+
 
 
 export default getFormattedWeatherData;
